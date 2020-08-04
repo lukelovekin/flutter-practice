@@ -1,6 +1,6 @@
-# practiceapp
+# WordPair Generator
 
-A new Flutter project.
+Joins two words from 5000, and saves them into another page
 
 ## Getting Started
 
