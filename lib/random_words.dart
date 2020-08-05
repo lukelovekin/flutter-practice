@@ -30,8 +30,7 @@ class RandomWordsState extends State<RandomWords> {
 
   Widget _buildRow(WordPair pair) {
     final alreadySaved = _savedWordPairs.contains(pair);
-
-
+    
     return ListTile(title: Text(pair.asPascalCase, 
     style: TextStyle(fontSize: 18.0)),
     trailing: Icon(alreadySaved ? Icons.favorite : Icons.favorite_border, color: alreadySaved ? Colors.red : null),
